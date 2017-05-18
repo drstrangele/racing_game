@@ -1,0 +1,59 @@
+body {
+  background-size: cover;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/83705b31516629.5654497747ade.png");
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.color {
+  color: #4248f4;
+  font-weight: bold;
+}
+
+.images {
+  position: relative;
+  width: 100px;
+  left: 0px;
+}
+
+
+#pie {
+  position: relative;
+  width: 100px;
+  top: 54px;
+}
+
+#pusheen {
+  position: relative;
+  width: 120px;
+  top: 29px;
+}
+
+#pusheen2 {
+  position: relative;
+  width: 120px;
+  top: 85px;
+}
+
+#start, #reset {
+  width: 120px;
+  height: 40px;
+  font-size: 25px;
+  background-color: grey;
+  margin:auto;
+  display:inline-block;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.winner {
+  font-size: 40px;
+}

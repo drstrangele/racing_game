@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <!-- set viewport to device width to allow responsiveness -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <!-- Bootstrap CSS from CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- link to custom stylesheet (always require after Bootstrap) -->
-    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <!-- jQuery from CDN -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <!-- link to custom javascript file (always require after external JS libraries) -->
@@ -16,6 +18,24 @@
   </head>
 
 <body>
-
-
+  <div>
+    <header>
+      <div class="wrapper">
+        <h1>THE GREAT PIE RACE</h1>
+        <p class="color">TO MOVE PUSHEEN 1 - Press Z : TO MOVE PUSHEEN 2 - Press M</p>
+      </div>
+      <div class="wrapper">
+        <input type="button" value="Start!" id="start">
+        <input type="button" value="Race Again!" id="reset">
+      </div>
+      <div class="wrapper winner">
+        <p>The Winner is<span>....</span></p>
+      </div>
+    </header>
+  </div>
+  <div class="images">
+    <img id="pusheen" src="imgs/pusheen.png">
+    <img id="pie" src="https://media.giphy.com/media/90bt1LduTg7ks/giphy.gif">
+    <img id="pusheen2" src="imgs/PusheenMcD.jpg">
+  </div>
 </body>
